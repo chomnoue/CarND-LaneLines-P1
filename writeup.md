@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. given images like the following
+My pipeline consisted of 6 steps. given images like the following
 
 ![alt text][original]
 
@@ -72,5 +72,5 @@ cannot distinguish lanes from obstacles
 
 A possible improvement would be to improve interpolation to fit curves. I will for example try to use [polyomial regression](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyfit.html) instead of linear regression.
 
-Another potential improvement could be to try to elimiate potential obstacles from lane detection. I will for example
-elimiate the zone staight in front of the car from the interest zone.
+Another potential improvement could be to try to eliminate potential obstacles from lane detection. I will for example
+eliminate the zone staight in front of the car from the interest zone.
